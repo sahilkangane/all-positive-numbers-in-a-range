@@ -1,0 +1,11 @@
+
+list1 = [10,-1,6,19,-61]
+print("Original numbers in the list: ",list1)
+new_list = list(filter(lambda x: x>0, list1))
+print("Positive numnbers in the list: ",new_list)
+
+
+list2 = [19,10,-40,1]
+print("Original numbers in the list: ",list2)
+new_list = list(filter(lambda x: x>0, list2))
+print("Positive numnbers in the list: ",new_list)
